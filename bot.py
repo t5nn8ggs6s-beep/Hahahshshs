@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, F, types
 from aiogram.filters import Command
 from aiogram.types import LabeledPrice, PreCheckoutQuery
 
-TOKEN = os.getenv("8736878861:AAF0tgDvKokvf-YOjPx585EpaljrEWQG9lM")
+TOKEN = "8736878861:AAF0tgDvKokvf-YOjPx585EpaljrEWQG9lM"
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
