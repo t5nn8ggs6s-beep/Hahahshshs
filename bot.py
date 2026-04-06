@@ -31,7 +31,7 @@ async def restart(callback: types.CallbackQuery):
 @dp.callback_query(F.data == "show_buy_info")
 async def show_buy_info(callback: types.CallbackQuery):
     # Вторая картинка перед оплатой
-    photo2 = types.FSInputFile("image2.png")
+    photo2 = types.FSInputFile("IMG_0299.jpeg")
     
     # Отправляем фото с описанием
     await callback.message.answer_photo(
