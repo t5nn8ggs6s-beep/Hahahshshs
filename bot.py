@@ -10,7 +10,7 @@ dp = Dispatcher()
 @dp.message(Command("start"))
 async def start_handler(message: types.Message):
     # Первая картинка при старте
-    photo = types.FSInputFile("image.png")
+    photo = types.FSInputFile("073841E7-DC35-47FF-BADC-14BF8323D1C9.png")
     kb = [
         [types.InlineKeyboardButton(text="Купить", callback_data="show_buy_info")],
         [types.InlineKeyboardButton(text="Начать сначала", callback_data="restart")]
